@@ -1,0 +1,23 @@
+{
+  "qa": {
+    "rabbitmq_host": "127.0.0.1",
+    "remote_host": "10.0.1.90",
+    "remote_address": "52.77.156.207",
+    "remote_user": "ec2-user",
+    "username": "guest",
+    "password": "guest",
+    "base_url": "https://api-qa.ezypay.com/v2/"
+  },
+  "local": {
+    "rabbitmq_host": "10.32.8.109",
+    "username": "guest",
+    "password": "guest",
+    "base_url": "https://api-dev.ezypay.com/v2/"
+  },
+  "queue_names": {
+    "ez-payment": "ezpayment-api",
+    "ez-ledger": "ezledger-api",
+    "ez-billing": "ezbilling-api"
+  },
+  "test_location": "\\\\EZY058\\Test Execution Data Files\\Microservice tests"
+}
